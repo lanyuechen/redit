@@ -12,7 +12,7 @@ const style = {
 const spec = {
     beginDrag(props) {
         console.log('beginDrag', props);
-        return props.config;
+        return {...props.config, act: 'add'};
     }
 };
 

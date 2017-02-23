@@ -7,6 +7,8 @@ module.exports = function (webpackConfig) {
     webpackConfig.babel.plugins.push(['import', {
         libraryName: 'antd',
         style: 'css',
+    }], ['import', {
+        libraryName: 'lodash'
     }]);
 
     webpackConfig.plugins.push(

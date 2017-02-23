@@ -6,6 +6,7 @@
   "dependencies": {
     "antd": "^2.1.0",
     "echarts": "^3.4.0",
+    "lodash": "^4.17.4",
     "react": "^15.1.0",
     "react-dnd": "^2.2.3",
     "react-dnd-html5-backend": "^2.2.3",
